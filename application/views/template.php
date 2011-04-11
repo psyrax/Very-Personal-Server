@@ -13,10 +13,14 @@ $this->load->library('session');
 <?php echo  link_tag('blueprint/'.$style); ?>
 </head>
 <body>
-<div class='header'>OG Server Controller: <a href="<?= base_url() ?>index.php/trinfo">Torrent manager</a> | <a href="<?= base_url() ?>index.php/dwndr"> MU Downloader </a> | About | @<?= $this->session->userdata('username');?> <a href="<?= base_url();?>index.php/login/gtfo">GTFO!</a></div>
+<div class='header'>
+<span class='head1'><a href="<?= base_url() ?>"> VPS </a> </span>
+<span class='head2'> <a href="<?= base_url() ?>index.php/trinfo">Torrent manager</a> | <a href="<?= base_url() ?>index.php/dwnldr">MU Downloader</a></span>
+<span class='head3'> About | @<?= $this->session->userdata('username');?> <a href="<?= base_url();?>index.php/login/gtfo">GTFO!</a></span>
+</div>
 <div class='container'>
 <?= $contents ?>
 </div>
-<div class='footer header'>Get yours <a href="https://github.com/psyrax/HomeMediaServerControl">Code</a> | info @ <a href="http://oglabs.info">OGLabs</a></div>
+<div class='footer'>Get yours <a href="https://github.com/psyrax/Very-Personal-Server">Code</a> | info @ <a href="http://oglabs.info">OGLabs</a></div>
 </body>
 </html>

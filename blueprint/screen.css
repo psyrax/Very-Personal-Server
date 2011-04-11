@@ -25,7 +25,7 @@ a img {border:none;}
 :focus {outline:0;}
 
 /* typography.css */
-html {font-size:100.01%;}
+html {font-size:75%;}
 body {font-family:Arial, Helvetica, sans-serif;}
 h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
 h1 {font-size:1.5em;line-height:1;margin-bottom:0.5em;padding-bottom:0.2em;}
@@ -263,4 +263,37 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 .clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
 .clearfix, .container {display:block;}
 .clear {clear:both;}
+/* mods */
+.header {
+font-weight:bold;
+padding:2px;
+background-color:#302B1D;
+color:#3F522B;
+}
+.header a{
+color:#D9CB84;
 
+}
+.head1{
+	background-color:#3F522B;
+	padding: 0 10px 0 10px;
+}
+.head2{
+	background-color:#737D26;
+	color:#D9CB84;
+	padding: 0 10px 0 10px;
+}
+.head3{
+	background-color:#A99E46;
+	padding: 0 10px 0 10px;
+}
+.footer {
+	font-weight:bold;
+padding:2px;
+background-color:#111B1C;
+color:#94B24D;
+}
+.footer a{
+	
+	color:#D9CB84;
+}
