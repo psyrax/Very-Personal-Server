@@ -31,3 +31,7 @@ $.ajax({
       <pre class='dashpre2 con' ></pre>
   </div>
 </div>
+<audio autoplay="autoplay" controls="controls">
+  <source src="http://192.168.1.119:8000/mpd.ogg" />
+  <source src="http://192.168.1.119:8000/mpd.mp3" />
+</audio>

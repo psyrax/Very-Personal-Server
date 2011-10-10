@@ -23,15 +23,26 @@ $.ajax({
 });
 </script>
 <h1>INFO</h1>
-<div class='heading'>Megaupload Files</div>
+<div class='heading'>Megaupload Files</div> 
 <hr />
-<div class='loadingbar' id='load1' >Loading... <img src="<?= base_url(); ?>css/loading.gif" /></div>
+<div class='loadingbar' id='load1' >
+  Loading... <img src="<?= base_url(); ?>css/loading.gif" />
+</div>
 <div class='dinfo dash1'>
-<pre class='dashpre1 con'></pre>
+  <pre class='dashpre1 con'></pre>
 </div>
 <div class='heading'>Torrent Files</div>
 <hr />
-<div class='loadingbar' id='load2' >Loading... <img src="<?= base_url(); ?>css/loading.gif" /></div>
+<div class='loadingbar' id='load2' >
+  Loading... <img src="<?= base_url(); ?>css/loading.gif" />
+</div>
 <div class='dinfo dash2'>
-<pre class='dashpre2 con' ></pre>
+  <pre class='dashpre2 con' ></pre>
+</div>
+<div class='player'>
+<audio autoplay="autoplay" controls="controls">
+  <source src="http://192.168.1.119:8000/mpd.ogg" />
+  <source src="http://192.168.1.119:8000/mpd.mp3" />
+</audio>
+
 </div>
