@@ -1,0 +1,58 @@
+/* mods */
+.header {
+	font-weight:bold;
+	background-color:#302B1D;
+	color:#D9CB84;
+	position: fixed;
+	top: 40px;
+	left: 0;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+  width:30px;
+  height:75px;
+  padding-top:20px;
+
+}
+.header_inner {
+  position: fixed;
+  top: 40px;
+  left: -200px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  background-color:#302B1D;
+  width:180px;
+  padding:10px;
+
+}
+.header:hover {
+  left: 200px;
+}
+.header:hover .header_inner {
+  left: 0;
+}
+
+.header a{
+color:#D9CB84;
+}
+
+.footer {
+font-weight:bold;
+padding:2px;
+background-color:#111B1C;
+color:#94B24D;
+}
+.footer a{
+	
+	color:#D9CB84;
+}
+.head1, .head2 {
+  margin: 1em 0em 1em 0em;
+}
+.head1 li, .head2 li {
+  list-style-type:none;
+}
+.container {
+  min-height:500px;
+}

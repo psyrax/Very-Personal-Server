@@ -1,0 +1,13 @@
+.con{
+	width:100%;
+	font-size:0.8em;
+	overflow:auto;
+	max-height:300px;
+}
+.heading {
+	display:inline-block;
+	width:200px;
+}
+.dinfo {
+	display:none;
+}

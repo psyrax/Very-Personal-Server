@@ -1,0 +1,15 @@
+body{
+font-size:100%;
+color:#66CCFF;
+background-color:#000;
+font-family: 'Geo', arial, serif;
+text-align:center;
+}
+.end{
+    font-size:10em;
+    padding-top:40px;
+} 
+.cursor
+{
+    text-decoration:blink;
+}
